@@ -82,10 +82,22 @@
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
+    .about__cards h5 {
+        margin: 0;
+        padding: 0.2rem;
+        font-size: 0.5rem;
+        line-height: 50%;
+    }
+    .btn-about {
+        margin: 0.1rem;
+    }
 }
 
 
 @media screen and (max-width: 600px) {
+    .about__card {
+        padding: 0.5rem;   
+    }
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;
@@ -102,5 +114,8 @@
     }
     .about__content p {
         margin: 1.5rem 0;
+    }
+    .btn-about {
+        margin: 0.1rem;
     }
 }

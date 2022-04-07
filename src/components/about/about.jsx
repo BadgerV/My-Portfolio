@@ -40,7 +40,7 @@ const About = () => {
           <p className='p-tags'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sint ducimus, fugiat porro doloribus saepe voluptate modi eius facere a praesentium tempore neque suscipit maxime esse officia est at quo?
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary btn-about'>Let's Talk</a>
         </div>
       </div>
     </section>
